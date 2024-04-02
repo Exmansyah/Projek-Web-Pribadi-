@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="%PUBLIC_URL%/FAVICON_ICO"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <!-- 
+  dark blue #1A2238
+  semidark purple #9DAAF2
+  semidark orange #FF6A3D
+  semidark yellow #F4DB7D 
+  -->
+  
+  <body>
+    <header>
+      <div class="logo logo-title">
+        <img class="logo-img" src="icon/partner.png" alt="Logo This Partner" />
+        <h1 class="logo-title">Gahn X</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#jasa">JASA</a></li>
+          <li><a href="mailto:whoaim712@gmail.com">KONTAK</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="redireInstagram()">Follow Me</button>
+    </header>
+    <div class="container">
+      <div class="wrapper">
+        <p class="title">Hello, Gahn Sebert Here!</p>
+        <p class="description">Technology Information From Village</p>
+        <img src="picture/foto1.jpg" alt="Gofar" class="img-foto" />
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="about">
+        <p class="title">Hello, Saya Seorang Programmer Newbie</p>
+        <p class="description">Mengoding Atau Menuliskan Syntax Suatu Hobi Bagi Saya</p>
+        <div class="mt">
+          <button class="btn-cta" onclick="redireWhatsapp()">Mohon bimbingannya</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card" id="jasa">
+          <div class="card-item">
+            <img src="icon/24-hours.png" alt="" class="icon"/>
+            <p class="card-title">Pelayanan nonstop</p>
+            <p class="card-description">Jasa open saat sedang luang dan tutup saat sedang mandi</p>
+          </div>
+          <div class="card-item">
+            <img src="icon/hot-deal.png" alt="" class="icon"/>
+            <p class="card-title">Jasa yang murah</p>
+            <p class="card-description">Biaya yang saya berikan murah dan
+            pastinya terjamin</p>
+          </div>
+          <div class="card-item">
+            <img src="icon/rating.png" alt="" class="icon"/>
+            <p class="card-title">15Rb Review</p>
+            <p class="card-description">Client saya sangat senang dengan jasa yang saya berikan</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h3>&copy; Gahn Sebert 2024</h3>
+    </footer>
+    
+    <!-- Projek Js -->
+    <script>
+      function redireInstagram() {
+        window.location.href = "https://www.instagram.com/gahnsebert?igsh=MXFrdXl1OHBvMThudw==";
+      }
+      function redireWhatsapp() {
+        window.location.href = "https://wa.me/6283898233673";
+      }
+    </script>
+  </body>
+</html>
