@@ -196,6 +196,11 @@ footer {
 		padding: 0;
 	}
 	
+	header {
+	  display: flex;
+	  flex-direction: row;
+	}
+	
 	nav {
 		position: fixed;
 		bottom: 0;
